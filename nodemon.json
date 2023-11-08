@@ -1,0 +1,8 @@
+{
+  "ext": "ts",
+  "exec": "ts-node-esm ./server/index.ts",
+  "env": {
+    "TS_NODE_PROJECT": "tsconfig.express.json"
+  },
+  "watch": ["./server/index.ts"]
+}

@@ -1,0 +1,24 @@
+{
+  "exclude": ["./app"],
+  "compilerOptions": {
+    /* Visit https://aka.ms/tsconfig to read more about this file */
+    /* Language and Environment */
+    "target": "ESNext",
+    "lib": ["ES2020"],
+
+    /* Modules */
+    "module": "ESNext",
+    "rootDir": "./server",
+    "moduleResolution": "node",
+    "outDir": "./dist",
+
+    /* Interop Constraints */
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+
+    /* Type Checking */
+    "strict": true,
+    "skipLibCheck": true
+  }
+}
